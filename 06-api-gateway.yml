@@ -10,17 +10,17 @@ spring:
       routes:
 
         - id: auth-service
-          uri: lb://05-auth-service
+          uri: lb://05-AUTH-SERVICE
           predicates:
             - Path=/auth/**
 
         - id: welcome-service
-          uri: lb://03-Welcome-api
+          uri: lb://03-WELCOME-API
           predicates:
             - Path=/welcome/**
 
         - id: greet-service
-          uri: lb://04-greet-api
+          uri: lb://04-GREET-API
           predicates:
             - Path=/greet/**
 
