@@ -35,3 +35,6 @@ management:
     web:
       exposure:
         include: "*"
+
+jwt:
+  secret: YOUR_EXACT_AUTH_SERVICE_SECRET
