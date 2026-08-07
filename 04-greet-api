@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: greet-api
+    name: 04-greet-api
 
 eureka:
   client:
